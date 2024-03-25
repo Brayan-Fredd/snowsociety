@@ -1,0 +1,90 @@
+*{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+body{
+    background-color: rgb(201, 186, 186);
+}
+header{
+    background: black;
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+}
+.menu{
+    width: 900px;
+    margin: 0 auto;
+}
+.img1{
+    width: 120px;
+    height: 80px;
+    float: left;
+}
+nav{
+    float: right;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 100px;
+    padding: 12px 0;
+    float: left;
+    position: relative;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    
+}
+p{
+    font-size: 18px;
+    margin-left: 50px;
+    color: rgb(105, 88, 88);
+}
+h2{
+    margin-left: 50px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+hr{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.galeria{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.galeri{
+    display: flex;
+    height: 20rem;
+    gap: 1rem;
+}
+.galeri > div{
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+.galeri > div:hover{
+    flex: 5;
+}
+footer{
+    text-align: center;
+}
